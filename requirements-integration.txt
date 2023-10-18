@@ -174,6 +174,7 @@ ruamel-yaml-clib==0.2.7
     # via ruamel-yaml
 six==1.16.0
     # via
+    #   asttokens
     #   google-auth
     #   kubernetes
     #   macaroonbakery
@@ -203,7 +204,7 @@ typing-extensions==4.7.1
     # via typing-inspect
 typing-inspect==0.9.0
     # via juju
-urllib3==1.26.16
+urllib3==1.26.18
     # via
     #   google-auth
     #   kubernetes
