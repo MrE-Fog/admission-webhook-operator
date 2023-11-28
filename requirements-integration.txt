@@ -28,7 +28,7 @@ charmed-kubeflow-chisme==0.0.11
     # via -r requirements-integration.in
 charset-normalizer==3.2.0
     # via requests
-cryptography==41.0.3
+cryptography==41.0.6
     # via paramiko
 decorator==5.1.1
     # via
@@ -36,6 +36,10 @@ decorator==5.1.1
     #   ipython
 deepdiff==6.2.1
     # via charmed-kubeflow-chisme
+exceptiongroup==1.2.0
+    # via
+    #   anyio
+    #   pytest
 executing==1.2.0
     # via stack-data
 google-auth==2.22.0
@@ -174,6 +178,7 @@ ruamel-yaml-clib==0.2.7
     # via ruamel-yaml
 six==1.16.0
     # via
+    #   asttokens
     #   google-auth
     #   kubernetes
     #   macaroonbakery
@@ -193,6 +198,10 @@ tenacity==8.2.2
     #   charmed-kubeflow-chisme
 theblues==0.5.2
     # via juju
+tomli==2.0.1
+    # via
+    #   ipdb
+    #   pytest
 toposort==1.10
     # via juju
 traitlets==5.9.0
@@ -200,7 +209,9 @@ traitlets==5.9.0
     #   ipython
     #   matplotlib-inline
 typing-extensions==4.7.1
-    # via typing-inspect
+    # via
+    #   ipython
+    #   typing-inspect
 typing-inspect==0.9.0
     # via juju
 urllib3==1.26.16
@@ -214,5 +225,5 @@ websocket-client==1.6.1
     # via
     #   kubernetes
     #   ops
-websockets==9.1
+websockets==7.0
     # via juju
